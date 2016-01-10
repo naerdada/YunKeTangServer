@@ -15,7 +15,7 @@ public class CourseDAOImpl implements CourseDAO{
         String sql = "";
         boolean result = false;
 
-        sql = "insert into classinfo(classinfo_id,classinfo_name,classinfo_time,classinfo_location) values (null, ?, ?, ?)";
+        sql = "insert into classinfo(classinfo_id, classinfo_name, classinfo_time, classinfo_location) values (null, ?, ?, ?)";
         result = dbManager.execUpdate(sql, coursename,coursetime,courselocation)>0;
         
         return result;

@@ -47,10 +47,15 @@ public class UserRegisterServlet extends HttpServlet {
         // 设置字符编码
         request.setCharacterEncoding("utf-8");
         
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
-        String genderStr  =request.getParameter("gender");
-        int gender = Integer.parseInt(genderStr);
+        //String username = request.getParameter("username");
+        //String password = request.getParameter("password");
+        //String genderStr  =request.getParameter("gender");
+        //int gender = Integer.parseInt(genderStr);
+        
+        String username = "dong";
+        String password = "1234";
+        int gender = 2;
+        
         String major = request.getParameter("major");
         String photo = request.getParameter("photo");
         boolean isSuccess = false;

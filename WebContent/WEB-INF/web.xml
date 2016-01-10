@@ -29,4 +29,14 @@
     <servlet-name>UserRegisterServlet</servlet-name>
     <url-pattern>/UserRegisterServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CourseServlet</display-name>
+    <servlet-name>CourseServlet</servlet-name>
+    <servlet-class>com.demo.cloudserver.servlet.CourseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CourseServlet</servlet-name>
+    <url-pattern>/CourseServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
